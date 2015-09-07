@@ -1,2 +1,4 @@
-# django-cms-technical-bulletins
-Bulletins on django CMS development issued by the technical board
+# django CMS technical bulletins
+
+Documents describing new features, policies or design decisions
+for the django CMS project

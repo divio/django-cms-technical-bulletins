@@ -1,0 +1,27 @@
+TB1
+Title: Introducing django CMS technical bulletins
+Author: Daniele Procida
+Date: 4th September 2015
+
+A Technical Bulletin is an official statement issued by the django CMS Technical Board.
+
+A technical bulletin can describe:
+
+* a new feature that will be developed for the CMS
+* a policy or standard that governs the CMS's development
+* a design decision
+
+Anyone can write or propose a technical bulletin, and anyone can discuss a proposed technical
+bulletin, but the Technical Board's approval is required for its acceptance.
+
+The purpose of technical bulletins is to improve communication within the django CMS community,
+particularly about the direction and future development of the project.
+
+Proposals for technical bulletins should be published and discussed on the django CMS developers
+email list.
+
+Once a proposal can be written up in a form that makes clear its intentions, it may
+be submitted as a pull request to this repository.
+
+Once accepted by the Technical Board, the pull request will be merged and the proposal will become
+a bulletin.
