@@ -1,0 +1,8 @@
+TB2
+Title: Long-term support release
+Author: Daniele Procida
+Date: 25th November 2015
+
+We're designating a future release as a Long-term Support version of django CMS.
+
+This version will follow the lifecycle of Django's own LTS release, Django 1.8
