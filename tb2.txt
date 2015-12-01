@@ -1,0 +1,40 @@
+TB2
+Title: django CMS Branch Policy
+Author: Martin Koistinen
+Date: 1st December 2015
+
+Summary: Describes the branching policy for the django CMS project.
+
+As we get more organized and we have more people working on features/fixes for
+the CMS with different time-horizons and therefore are targeted to different
+releases, we should be more careful with how we start our pull requests, how we
+integrate them and ultimately release them.
+
+RELEASE
+
+When a new minor version has been released (E.g., 3.2.0), we will create a
+branch under "release/3.2.x", for example, to serve as the latest integration
+branch for that minor version. Bug fixes (and sanctioned minor features) should
+be branched from here as a starting-point and will be integrated here as they
+are committed. Point releases will be periodically released from this "release/"
+branch.
+
+DEVELOP
+
+The next minor version (E.g., 3.3.0) will be integrated onto "develop". Any
+features or other effort that is targeted to a release later than the next minor
+release will remain in discreet feature/topic branches until after the next
+minor release, then they will be integrated into develop as usual.
+
+FUTURE
+
+Features targeting the next major release will remain in their discreet feature
+branches. If an integration branch is deemed to be required, this should be
+called "future". However, we should avoid creating this unless deemed absolutely
+necessary.
+
+SUPPORT
+
+As of this writing, we have branches "support/3.0.x", "support/3.1.x", etc.
+These will simply remain where they are until they are purged in the normal
+course of time.
